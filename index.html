@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon-32x32.png">
+    
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+
+        text-align: center;
+        
+        background-image: url("background.gif");
+        background-repeat: repeat;
+
+        width: 100%;
+        height: 100%;
+      }
+      
+      @keyframes christmas {
+        0% { color: white; }
+        25% { color: #ff0000; }
+        50% { color: white; }
+        75% { color: #00bb00; }
+      }
+
+      h1 {
+        font-size: 100px;
+        color: white;
+        text-decoration: outline;
+        animation: christmas 5s infinite;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 4px 4px #ff0000ff, 8px 8px #00bb00dd, 12px 12px #ff0000bb, 16px 16px #00bb0099, 20px 20px #ff000077, 24px 24px #00bb0055, 28px 28px #ff000033, 32px 32px #00bb0011;
+      } 
+    </style>
+  </head>
+  
+  <body>
+    <h1>Merry Christmas!</h1>
+    <div style="margin-bottom: 100px;">
+      <audio autoplay controls loop>
+        <source src="/wonderful.mp3" type="audio/mpeg">
+        <source src="/wonderful.ogg" type="audio/ogg">
+      </audio>
+    </div>
+    <div>
+      <a href="/hd.html">See it in HD!</a>
+    </div>
+  </body>
+</html>
